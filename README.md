@@ -4,7 +4,7 @@ Slackのあなたのチャンネルにアツい修造の言葉を届けられる
 こちらのREADMEは編集中です
 随時アップデートします
 
-# 使い方
+## 使い方
 - bot自体の作成は [こちら](https://qiita.com/kurararara/items/f25afe5fc87da328776a) を参考に
     - API TOKEN (Bot User OAuth Access Token) をとってくる必要があるので、そちらをコードに貼り付けるor環境変数を使うことで設定してください
 
@@ -13,3 +13,5 @@ Slackのあなたのチャンネルにアツい修造の言葉を届けられる
     - `gem install slack-api`   # only 1 time 
     - `ruby shuzo.rb`
 
+## 利用例
+![](img/shuzo_bot_use_example_1.png)
