@@ -15,11 +15,11 @@ end
 client.on :message do |data|
     if data['text'].include?('@shuzo')
       words = [
-        "<@#{data['user']}>今日からお前は、富士山だ！",
+        "<@#{data['user']}> 今日からお前は、富士山だ！",
         "<@#{data['user']}> もっと熱くなれよ！" ,
         "<@#{data['user']}> 君ならできる！",
         ":atsumori:",
-        "崖っぷち、だーいすき:heart:",
+        "崖っぷち、だーいすき :heart:",
         "<@#{data['user']}> 大丈夫、君は一人じゃない",
         "<@#{data['user']}> 考えろ！考えるな！"
       ]
